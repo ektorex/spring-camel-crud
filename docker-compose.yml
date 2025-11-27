@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: spring-camel-crud
+    ports:
+      - "8080:8080"
+
